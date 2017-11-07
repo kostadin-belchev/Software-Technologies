@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+    <!-- jQuerry & Bootstrap.js -->
+    <script src="scripts/jquery-1.10.2.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+
+    <!-- Title -->
+    <title>SoftUni Blog</title>
+
+</head>
+
+<body>
+<!-- Header -->
+<header>
+    <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">SoftUni Blog</a>
+                <!-- Responsive Dropdown Menu -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Navbar buttons -->
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Main Content -->
+<main>
+    <div class="container body-content span=8 offset=2">
+        <form class="form-horizontal">
+            <fieldset>
+                <legend>
+                    Register
+                </legend>
+                <!-- Email -->
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">Email</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+                <!-- Full Name -->
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">Full Name</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="inputName" placeholder="Full Name">
+                    </div>
+                </div>
+                <!-- Password -->
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">Password</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="inputPass" placeholder="Password">
+                    </div>
+                </div>
+                <!-- Confirm Password -->
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">Confirm Password</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="inputConfirmPass" placeholder="Confirm Password">
+                    </div>
+                </div>
+                <!-- Buttons -->
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <button type="reset" class="btn btn-default">Cancel</button>
+                        <button type="Submit" class="btn btn-primary">Register</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</main>
+<!-- Footer -->
+<footer>
+    <div class="container modal-footer">
+        <p>&copy; 2017 - Slaweykow Web Design</p>
+    </div>
+</footer>
+
+</body>
+</html>
