@@ -15,4 +15,3 @@ function findNums (arr) {
         console.log(outputArray[i]);
 
 }
-findNums((['10', '30', '15', '20', '50', '5']));
