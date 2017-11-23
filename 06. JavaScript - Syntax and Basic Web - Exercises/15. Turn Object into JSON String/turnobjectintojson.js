@@ -15,6 +15,7 @@ function turnIntoJSON(arr) {
         /* Set the value to the specific key */
         outputObject[key] = value;
     }
+	
     /* Print the final object */
     console.log(JSON.stringify(outputObject));
 }
